@@ -1,4 +1,4 @@
-package com;
+package com.network;
 
 import java.io.PrintWriter;
 import java.util.Set;
@@ -9,12 +9,15 @@ public class Broadcast {
 
 	public Broadcast(Set<PrintWriter> writers) {
 			this.writers = writers;
-		
 	}
-	
-	public void transmit(String message) {
+	public void transmit(String message, PrintWriter remetente) {
 		synchronized (writers) {
-			writers.forEach(writer -> writer.println(message));
+			
+			writers.forEach(writer -> {
+				if (writer != remetente) {
+					writer.println(message);
+				}
+			});
 		}
 		
 	};

@@ -51,9 +51,5 @@ public class MainClient {
 		} finally {
 			scanner.close();
 		}
-		
-
 	}
-	
-
 }

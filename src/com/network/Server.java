@@ -1,4 +1,4 @@
-package com;
+package com.network;
 
 import java.io.IOException;
 import java.io.PrintWriter;
