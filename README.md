@@ -92,12 +92,6 @@ Digite seu nome no login e você estará conectado ao chat via GUI.
 
 ---
 
-## 📸 Demonstração (GUI)
-
-![Exemplo GUI](https://via.placeholder.com/600x300.png?text=Chat+GUI+Exemplo)
-
----
-
 ## 🚀 Tecnologias
 - **Java 21**  
 - **Sockets TCP/IP**  
