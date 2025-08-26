@@ -1,4 +1,4 @@
-package com.gui;
+package com.gui.telas;
 
 import java.awt.Color;
 
@@ -8,6 +8,8 @@ import javax.swing.JTextField;
 import javax.swing.Timer;
 import javax.swing.border.Border;
 import javax.swing.border.LineBorder;
+
+import com.gui.generico.TelaGenerica;
 
 
 public class Login extends TelaGenerica{

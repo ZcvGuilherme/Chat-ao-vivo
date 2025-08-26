@@ -1,4 +1,4 @@
-package com.gui;
+package com.gui.generico;
 
 import java.awt.Dimension;
 

@@ -6,7 +6,7 @@
 //
 //4 - como manter a conexão viva em background sem travar a interface.
 
-package com.gui;
+package com.gui.telas;
 
 import java.awt.Font;
 import java.io.BufferedReader;
@@ -20,6 +20,8 @@ import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
 import javax.swing.SwingUtilities;
+
+import com.gui.generico.TelaGenerica;
 
 public class ClientUI extends TelaGenerica{
 	//SOCKET
